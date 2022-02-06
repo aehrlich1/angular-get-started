@@ -5,7 +5,7 @@ export interface Product {
   description: string;
 }
 
-export const products = [
+export const products: Product[] = [
   {
     id: 1,
     name: 'Phone XL',
@@ -16,12 +16,12 @@ export const products = [
     id: 2,
     name: 'Phone Mini',
     price: 699,
-    descriptions: 'A great phone with one of the best cameras'
+    description: 'A great phone with one of the best cameras'
   },
   {
     id: 3,
     name: 'Phone Standard',
     price: 299,
-    descriptions: ''
+    description: ''
   }
 ];
